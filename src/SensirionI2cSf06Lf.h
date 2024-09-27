@@ -187,6 +187,7 @@ class SensirionI2cSf06Lf {
      * with this command.
      *
      * @param[out] rawFlow Convert to units by
+     * applying: flow = raw_flow / 500 For SLF3C-1300F convert to ml/min
      * applying: flow = raw_flow / 500 For SLF3S-1300F convert to ml/min
      * applying: flow = raw_flow / 32 For SLF3S-4000B convert to ml/min
      * applying: flow = raw_flow / 10 For SLF3S-0600F convert to μl/min
